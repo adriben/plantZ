@@ -7,12 +7,10 @@ $theme-colors: (
   "gray": $gray,
 );
 
-// Create your own map
 $custom-color: (
   "icon-background": rgba(24, 127, 46, 0.2),
 );
 
-// Merge maps
 $theme-colors: map-merge($theme-colors, $custom-color);
 
 $utilities: (
@@ -25,6 +23,10 @@ $utilities: (
     ),
   ),
 );
+
+body {
+  background-color: black;
+}
 
 @import "./bootstrap/scss/bootstrap";
 
@@ -57,5 +59,22 @@ $utilities: (
 
   @include media-breakpoint-down(lg) {
     display: none;
+  }
+}
+
+.site-header {
+  .aws-search-field {
+    font-size: 0.9rem;
+    border-radius: 20px !important;
+  }
+}
+
+//MAin menu
+
+.main-navigation {
+  font-weight: 600;
+
+  a {
+    color: white;
   }
 }
