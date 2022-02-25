@@ -150,8 +150,8 @@ function plantz_scripts()
 	wp_style_add_data('plantz-style', 'rtl', 'replace');
 
 	wp_enqueue_script('plantz-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
-	wp_enqueue_script('bootstrap-popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js', array('jquery'));
-	wp_enqueue_script('bootstrap-script', '	https: //cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 	', array('jquery'));
+	wp_enqueue_script('bootstrap-popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js', array('jquery'));
+	wp_enqueue_script('bootstrap-script', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js', array('jquery'));
 	wp_enqueue_script('plantz-script', get_template_directory_uri() . '/js/script.js', array('jquery'));
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {

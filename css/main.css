@@ -11386,4 +11386,9 @@ fieldset:disabled .btn {
   color: white;
   border: none;
 }
+
+.carousel-item img {
+  width: 100%;
+  max-height: 700px;
+}
 /*# sourceMappingURL=main.css.map */
