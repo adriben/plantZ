@@ -24,10 +24,6 @@ $utilities: (
   ),
 );
 
-body {
-  background-color: black;
-}
-
 @import "./bootstrap/scss/bootstrap";
 
 .announcement-bar {
@@ -73,8 +69,21 @@ body {
 
 .main-navigation {
   font-weight: 600;
+  .current-menu-item {
+    background-color: rgb(66, 160, 49);
+  }
 
   a {
     color: white;
+    padding: 1rem 1.4rem;
+    &:hover {
+      background-color: rgb(66, 160, 49);
+    }
+  }
+
+  .menu-toggle {
+    background-color: $primary;
+    color: white;
+    border: none;
   }
 }

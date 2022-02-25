@@ -34,12 +34,12 @@
 						<ul class="announcement-bar__list">
 							<li>
 								<i class="bi bi-telephone rounded-circle"></i>
-								<a href="tel: +81 070 5665 8997">+81 070 5665 8997</a>
+								<a href="tel: +81 070 5665 8997" class="text-decoration-none">+81 070 5665 8997</a>
 
 							</li>
 							<li>
 								<i class="bi bi-envelope rounded-circle"></i>
-								<a href="mailto: plantz@info.com">plantz@info.com</a>
+								<a href="mailto: plantz@info.com" class="text-decoration-none">plantz@info.com</a>
 
 							</li>
 						</ul>
@@ -97,7 +97,9 @@
 
 					<div class="row">
 						<div class="col-12 d-flex justify-content-center">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'plantz'); ?></button>
+							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+								<i class="bi bi-list"></i>
+								<?php esc_html_e('Primary Menu', 'plantz'); ?></button>
 
 
 						</div>
