@@ -58,7 +58,7 @@ get_header();
         </p>
         <div class="pt-5 pb-5">
 
-            <?php echo do_shortcode(' [products colums=4 limit=4] ') ?>
+            <?php echo do_shortcode(' [products popularity colums=4 limit=4] ') ?>
         </div>
 
     </section>
@@ -119,6 +119,18 @@ get_header();
 
     </section>
 
+
+    <section class="container">
+        <h1 class="text-center pt-5">Special Offers</h1>
+        <p class="text-center">
+            We offer a number of healthy and beautiful plants <br> for your indoor and outdoor space.
+        </p>
+        <div class="pt-5 pb-5">
+
+            <?php echo do_shortcode(' [sale_products colums=4 limit=4] ') ?>
+        </div>
+
+    </section>
 
 
 
