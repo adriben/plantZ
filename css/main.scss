@@ -1,9 +1,11 @@
 // Include custom veriables default overrides here
 $primary: rgb(39, 127, 24);
+$primary-opacity-8: rgba(39, 127, 24, 0.8);
 $gray: #e6e6e6;
 
 $theme-colors: (
   "primary": $primary,
+  "primary-opacity-8": $primary-opacity-8,
   "gray": $gray,
 );
 
@@ -92,5 +94,24 @@ $utilities: (
   img {
     width: 100%;
     max-height: 700px;
+  }
+}
+
+.categories {
+  background-color: #f9f9f9;
+
+  .categories__col {
+    height: 212px;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @include media-breakpoint-up(md) {
+    .categories__col {
+      height: 335px;
+    }
   }
 }

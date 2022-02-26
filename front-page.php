@@ -70,14 +70,47 @@ get_header();
                 We offer a number of healthy and beautiful plants <br> for your indoor and outdoor space.
             </p>
 
-        </div>
 
-        <div class="row pt-5">
 
-            <div class="categories__col col-md-4 col-sm-12 ">
-                <a href="#">
-                    <img src="" alt="" class="" loading="lazy">
-                </a>
+            <div class="row pt-5">
+
+                <div class="categories__col col-md-4 col-sm-12 mb-3">
+                    <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                        <img class="position-absolute top-0 end-0 start-0" src="<?php echo get_template_directory_uri(); ?>/img/plants.jpg" alt="" class="" loading="lazy">
+                        <h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Plants</h2>
+                    </a>
+
+                </div>
+                <div class="categories__col col-md-4 col-sm-12 mb-3">
+                    <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                        <img class="position-absolute top-0 end-0 start-0" src="<?php echo get_template_directory_uri(); ?>/img/terreau.jpg" alt="" class="" loading="lazy">
+                        <h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Soil</h2>
+                    </a>
+
+                </div>
+                <div class="categories__col col-md-4 col-sm-12 mb-3">
+                    <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                        <img class="position-absolute top-0 end-0 start-0" src="<?php echo get_template_directory_uri(); ?>/img/tools.jpg" alt="" class="" loading="lazy">
+                        <h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Tools</h2>
+                    </a>
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="categories__col col-md-4 col-sm-12 mb-3 ">
+                    <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                        <img class="position-absolute top-0 end-0 start-0" src="<?php echo get_template_directory_uri(); ?>/img/arrosoir.jpg" alt="" class="" loading="lazy">
+                        <h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Can</h2>
+                    </a>
+
+                </div>
+                <div class="categories__col col-md-8 col-sm-12 mb-3 ">
+                    <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                        <img class="position-absolute top-0 end-0 start-0" src="<?php echo get_template_directory_uri(); ?>/img/pots.jpg" alt="" class="" loading="lazy">
+                        <h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Pots</h2>
+                    </a>
+
+                </div>
 
             </div>
         </div>
