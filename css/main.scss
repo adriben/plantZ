@@ -149,3 +149,11 @@ $utilities: (
     overflow: hidden;
   }
 }
+
+.checkout-button {
+  background-color: $primary !important;
+
+  &:hover {
+    background-color: rgb(66, 160, 49) !important;
+  }
+}

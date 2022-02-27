@@ -11565,4 +11565,12 @@ fieldset:disabled .btn {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.checkout-button {
+  background-color: #277f18 !important;
+}
+
+.checkout-button:hover {
+  background-color: #42a031 !important;
+}
 /*# sourceMappingURL=main.css.map */
